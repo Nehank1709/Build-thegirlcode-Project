@@ -1,0 +1,53 @@
+body{
+margin: 0px;
+}
+
+.parent{
+background-color: rgb(255, 204, 255);
+width: 100vw;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 25px;
+}
+
+.child1{
+	margin-right: 800px;
+padding-right: 8vw;
+font-size: 25px;
+font-weight: bolder;
+text-shadow: 2px 2px 5px rgb(255, 0, 255);
+}
+
+.child{
+padding-left: 2vw;
+font-weight: bold;
+}
+
+
+img{
+	width: 100vw;
+	height: 400px;
+}
+
+.blog_container
+{
+	width: 100vw;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color:  rgb(255, 230, 255);
+}
+.Blog{
+padding: 8px 10px 50px 10px;
+background-color: white;
+border: 5px solid rgb(255, 204, 255);
+
+}
+.line2{
+	color: grey;
+	opacity: .8;
+}
